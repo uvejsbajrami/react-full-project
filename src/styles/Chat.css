@@ -1,0 +1,4 @@
+.chatDiv {
+  border: 3px solid rgb(99, 96, 96);
+  overflow-y: scroll;
+}

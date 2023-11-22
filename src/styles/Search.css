@@ -1,0 +1,10 @@
+.searchComponentDiv {
+  height: 585px;
+  border: 3px solid rgb(99, 96, 96);
+  overflow-y: scroll;
+}
+.divSearchUsers {
+  background-color: rgba(99, 96, 96, 0.349);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}

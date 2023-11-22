@@ -1,0 +1,15 @@
+.divPost img {
+  border-radius: 50%;
+  background-color: #c0bbbb;
+  height: 45px;
+  width: 45px;
+  margin: 5px;
+}
+.divPosts {
+  width: 100%;
+  background-color: #6b7074c0;
+  margin-bottom: 20px;
+}
+.btn1:hover {
+  opacity: 0.6;
+}

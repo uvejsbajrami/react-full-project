@@ -1,0 +1,52 @@
+.gamingDiv {
+  border: 3px solid rgb(99, 96, 96);
+  height: 300px;
+  border-radius: 20px;
+}
+.gamingTitle h3 {
+  color: white;
+  font-size: 24px;
+}
+.gamingTitle {
+  margin-bottom: 25px;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60%;
+}
+.game1 p,
+.game2 p {
+  color: white;
+}
+.game1,
+.game2 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  padding-left: 0px;
+  width: 85%;
+  margin: 10px;
+  border-radius: 7px;
+  background-color: #3b3f4989;
+}
+.game1 img,
+.game2 img {
+  height: 50px;
+  border-radius: 5px;
+}
+.Fortnite {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GameName {
+  margin-right: 60px;
+}
+.GameName span {
+  font-weight: 300;
+  font-size: 13px;
+  width: 100px;
+}

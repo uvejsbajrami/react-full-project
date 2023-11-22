@@ -1,0 +1,21 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+.reelsDiv {
+  border: 3px solid rgb(99, 96, 96);
+  overflow: hidden;
+}
+.video-container {
+  position: relative;
+  height: 70vh;
+  width: 70%;
+  max-width: 330px;
+  border-radius: 20px;
+  background-color: white;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+.video-container::-webkit-scrollbar {
+  display: none;
+}

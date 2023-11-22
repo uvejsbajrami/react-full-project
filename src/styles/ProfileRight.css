@@ -1,0 +1,60 @@
+.divImage img {
+  border-radius: 5px;
+  height: 25px;
+  object-fit: contain;
+}
+.icona {
+  margin: 10px;
+}
+.rightDiv {
+  border: 3px solid rgb(99, 96, 96);
+  height: 585px;
+  backdrop-filter: blur(20px);
+  overflow-y: scroll;
+}
+.settings,
+.message,
+.notify {
+  border-radius: 5px;
+  padding: 3px;
+  background-color: #7d828667;
+  transition: 300ms;
+}
+.settings:hover,
+.message:hover,
+.notify:hover,
+.megaPhone:hover {
+  transform: scale(1.2);
+}
+::-webkit-scrollbar {
+  width: 7px;
+
+  background-color: #7d828667;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(71, 75, 78, 0.98);
+}
+p,
+h5 {
+  color: white;
+}
+.yourPageContent img {
+  object-fit: cover;
+  overflow: hidden;
+  height: 44px;
+  width: 44px;
+  border-radius: 70%;
+}
+.yourPage {
+  height: 80px;
+}
+.megaPhone {
+  cursor: pointer;
+  transition: 300ms ease-in;
+}
+
+/* .contact {
+  background-color: red;
+} */

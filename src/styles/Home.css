@@ -1,0 +1,26 @@
+.containerDiv {
+  border-left: 3px solid rgb(99, 96, 96);
+  border-right: 3px solid rgb(99, 96, 96);
+  border-bottom: 3px solid rgb(99, 96, 96);
+  overflow-y: scroll;
+  height: 585px;
+}
+.storyImageDiv {
+  position: relative;
+}
+.storyImageDiv img {
+  overflow: hidden;
+  height: 180px;
+}
+.nameStory {
+  background-color: rgba(0, 0, 0, 0.325);
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nameStory p {
+  font-size: 16px;
+}
